@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# cppMatrimony
+
+## For [Arvin](https://github.com/v4zha) who seeks for a girl who knows cpp @latest
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +16,71 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+**Client:** React, TailwindCSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Design:** Figma
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# How to contribute
+## `fork this repo`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Logo](https://user-images.githubusercontent.com/84318379/198868169-4a523755-4cfb-4d0f-94dc-a84965b2f26a.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the project
 
-## Learn More
+```bash
+  git clone https://github.com/AdithyakrishnaV/cppMatrimony.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  cd cppMatrimony
+```
 
-### Code Splitting
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm install
+```
 
-### Analyzing the Bundle Size
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  npm run start
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Add new pages in page folder
 
-### Advanced Configuration
+![App Screenshot](https://user-images.githubusercontent.com/84318379/198868052-3bd551ed-6d67-4dd5-bd86-4fc7ce00179b.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Make new page layout, import location & add layout as below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![App Screenshot](https://user-images.githubusercontent.com/84318379/198869013-fc1c33f5-d931-4ae4-9ea3-69cce9ab31b2.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Import the layout & Add the route in App.jsx
+
+![App Screenshot](https://user-images.githubusercontent.com/84318379/198869154-e1339c35-8373-4c7b-a2c5-7e3b0f085cbf.png)
+
+
+## Use the custom color & font or add custom in tailwind.config.js
+
+![App Screenshot](https://user-images.githubusercontent.com/84318379/198869177-15061d43-1d8d-4e1e-98f7-27a8cc050690.png)
+
+## Home page designer: [viwicodes](https://github.com/viwicodes) 
+
+![App Screenshot](https://user-images.githubusercontent.com/84318379/198869872-d63a2615-901c-4968-97b3-ad8d1b302b7b.png)
+## Are you a designer
+### Wanna design other pages, feel free to contact me directly or through linkedin (link in overview section) and share a copy of your work
+### Your design and profile will be added here
+
