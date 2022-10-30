@@ -3,12 +3,13 @@ import Nav from "./components/Navbar/Navbar";
 import { Routes } from "react-router-dom";
 import DefaultLayout from "./components/layout/Default.layout";
 
-import Nopage from "./components/Nopage";
+import Nopage from "./components/pages/Nopage";
 function App() {
   return(
       <>
         <Routes>
           <Route path="/" element={<DefaultLayout/>}/>
+          <Route path="/match" element={<Nopage/>}/>
           <Route path="*" element={<Nopage/>}/>
         </Routes>
       </>

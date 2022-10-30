@@ -1,4 +1,5 @@
 import React from "react";
+import arvi from "../image/arvi.png"
 
 const Nopage = () =>{
     return (
