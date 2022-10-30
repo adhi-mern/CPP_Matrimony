@@ -8,8 +8,8 @@ const Navsm = () => {
     <>
         <div className="flex flex-row space-x-20 p-4 text-white">
           <div>
-            <h2 className="font-bold text-4xl">cookie</h2>
-            <h6 className="italic ml-14">network</h6>
+            <h2 className="font-bold text-4xl">cppMatrimony</h2>
+            <h6 className="font-fasthand ml-14">where programmers find each other</h6>
           </div>
           <div className="flex">
             <span className="hover:text-black text-5xl">
@@ -25,12 +25,12 @@ const Navsm = () => {
 const Navmd = () => {
   return (
     <>
-      <div className="flex flex-row space-x-96 p-6 text-white ">
-          <div className="ml-10">
-            <h2 className="font-bold text-4xl">cookie</h2>
-            <h6 className="italic ml-14">network</h6>
+      <div className="flex container flex-row p-6 text-white ">
+          <div className="ml-10 w-full ">
+            <h2 className="font-bold text-4xl">cppMatrimony</h2>
+            <h6 className="font-fasthand text-lg ml-14">where programmers find each other</h6>
           </div>
-          <div className="flex text-lg place-items-center ml-0%">
+          <div className="flex text-lg cursor-pointer place-items-center">
             <h3 className="ml-4">Home</h3>
             <h3 className="ml-4">Match</h3>
             <h3 className="ml-4">About</h3>
@@ -44,16 +44,16 @@ const Navmd = () => {
 const Navlg = () => {
   return (
     <>
-      <div className="flex flex-row space-x-96 p-6 text-white ">
-          <div className="ml-10">
-            <h2 className="font-bold text-4xl">cookie</h2>
-            <h6 className="italic ml-14">network</h6>
+      <div className="flex container flex-row p-6 text-white">
+          <div className="ml-10 w-full">
+            <h2 className="font-bold text-4xl">cppMatrimony</h2>
+            <h6 className="text-lg ml-14 font-fasthand">where programmers find each other</h6>
           </div>
-          <div className="flex text-lg place-items-center">
-            <h3 className="ml-4">Home</h3>
-            <h3 className="ml-4">Match</h3>
-            <h3 className="ml-4">About</h3>
-            <h3 className="ml-4">Contact</h3>
+          <div className="flex text-lg w-3/5 cursor-pointer place-items-center">
+            <h3 className="ml-10">Home</h3>
+            <h3 className="ml-10">Match</h3>
+            <h3 className="ml-10">About</h3>
+            <h3 className="ml-10">Contact</h3>
           </div>
         </div>
     </>
@@ -63,7 +63,7 @@ const Navlg = () => {
 const Navbar = () => {
     return (
         <>
-          <nav className="bg-arvin-600 h-28">
+          <nav className="bg-arvin-600 h-28x">
             <div className="md:hidden">
               <Navsm/>
             </div>

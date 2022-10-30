@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        fasthand :["Fasthand"],
+        homefont: ["Permanent Marker"]
+      },
       colors: {
         arvin: 
         {
