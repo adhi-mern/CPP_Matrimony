@@ -44,6 +44,11 @@ Go to the project directory
 ```bash
   cd cppMatrimony
 ```
+Go to the project directory
+
+```bash
+  cd client
+```
 
 Install dependencies
 
