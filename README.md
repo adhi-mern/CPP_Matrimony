@@ -2,7 +2,7 @@
 
 # changing project to NEXTjs 
 
-# project will be completed and updated soon....
+# project will be completed with fully functional frontend and backend and updated soon....
 
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
