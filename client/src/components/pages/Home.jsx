@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import arvi from "../image/arvi.png"
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const findMatch = () => {
+    navigate("/findMatch");
+  };
+
     return(
         <>
           <div className="flex sm:flex-wrap container bg-gradient-to-l from-bgarvin-400 mr-0  w-full h-full">
@@ -10,8 +18,8 @@ const Home = () => {
                         <h1 className="font-homefont  text-4xl">FIND EACH OTHER</h1>
                     </div>
                     <div className="flex gap-3">
-                        <h3 className="border-2 p-1 border-arvin-600">FIND MATCH</h3>
-                        <h3 className="border-4 text-white p-1 border-arvin-600 bg-arvin-600">SIGN UP</h3>
+                        <button className="border-2 p-1 border-arvin-600" onClick={findMatch}>FIND MATCH</button>
+                        <button className="border-4 text-white p-1 border-arvin-600 bg-arvin-600">SIGN UP</button>
                     </div>
                 </div>
                 <span className="lg:ml-80  w-4/12">
