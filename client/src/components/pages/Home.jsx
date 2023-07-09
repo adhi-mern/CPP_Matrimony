@@ -9,6 +9,10 @@ const Home = () => {
     navigate("/findMatch");
   };
 
+  const signUp = () => {
+    navigate("/signUp");
+  };
+
     return(
         <>
           <div className="flex sm:flex-wrap container bg-gradient-to-l from-bgarvin-400 mr-0  w-full h-full">
@@ -19,7 +23,7 @@ const Home = () => {
                     </div>
                     <div className="flex gap-3">
                         <button className="border-2 p-1 border-arvin-600" onClick={findMatch}>FIND MATCH</button>
-                        <button className="border-4 text-white p-1 border-arvin-600 bg-arvin-600">SIGN UP</button>
+                        <button className="border-4 text-white p-1 border-arvin-600 bg-arvin-600"  onClick={signUp}>SIGN UP</button>
                     </div>
                 </div>
                 <span className="lg:ml-80  w-4/12">
