@@ -81,7 +81,4 @@ Start the server
 ## Home page designer: [viwicodes](https://github.com/viwicodes) 
 
 ![App Screenshot](https://user-images.githubusercontent.com/84318379/198869872-d63a2615-901c-4968-97b3-ad8d1b302b7b.png)
-## Are you a designer
-### Wanna design other pages, feel free to contact me directly or through linkedin (link in overview section) and share a copy of your work
-### Your design and profile will be added here
 
